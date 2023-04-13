@@ -1,0 +1,14 @@
+	(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	Capital	Labor	Int. inputs	Capital	Labor	Int. inputs
+						
+indener_intensity	0.1000	0.820***	-3.602***			
+	(0.0794)	(0.197)	(0.261)			
+Constant	0.0594***	0.0748***	0.758***	0.0634***	0.108***	0.612***
+	(0.00589)	(0.0146)	(0.0194)	(0.00493)	(0.0123)	(0.0167)
+						
+Observations	3,523	3,523	3,523	3,523	3,523	3,523
+R-squared	0.866	0.941	0.908	0.866	0.941	0.903
+Country x Industry FE	Yes	Yes	Yes	Yes	Yes	Yes
+Year FE	Yes	Yes	Yes	Yes	Yes	Yes
+Standard errors in parentheses						
+*** p<0.01, ** p<0.05, * p<0.1						
