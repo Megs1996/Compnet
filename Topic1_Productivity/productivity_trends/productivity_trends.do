@@ -1,8 +1,8 @@
 clear all
 set more off
 
-* Output directory
-global savepath "G:\MHG\MULTIMSPROD\Replication Packages\Replication-Packages\Topic1_Productivity\productivity_trends"
+* Set output directory
+global savepath "...\Replication-Packages\Topic1_Productivity\productivity_trends"
 
 *Choose Compnet sample
 global sample "20e"
@@ -10,8 +10,8 @@ global sample "20e"
 *Weighted or unweighted version 
 global weight "weighted" 
 
-* Data directory 
-global data "S:/PROJEKTE/Compnet/9th Vintage/dataset_creation/final_output/${sample}_firms_${weight}/Descriptives/"
+* Set data directory 
+global data ".../${sample}_firms_${weight}/Descriptives/"
 
 
 *----------------------------------*
