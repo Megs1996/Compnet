@@ -1,3 +1,7 @@
+** Clarifying notes
+* Dataset(s) used: op_decomp_industry2d_20e_weighted sample, unconditional_industry2d_20e_weighted, 9th vintage
+	
+
 clear all
 set more off
 
