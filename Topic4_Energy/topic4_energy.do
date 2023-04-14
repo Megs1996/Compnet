@@ -8,9 +8,11 @@
 *2. Definition of energy intensity: energy cost over total cost, deflated by energy price deflators and gdp deflators respectively
 *3. For totals, using _sw*_mn instead of _N*_mn (ie. total energy use = FV03_n_ener_mn*FV03_n_ener_sw)
 
+* Set data directory
+global data "...\20e_firms_weighted\Descriptives\"
 
-global data "S:\PROJEKTE\Compnet\8th Vintage\merging_and_appending\final_8th_vintage\20e_firms_weighted\Descriptives\"
-global output "G:\MHG\MULTIMSPROD\Replication Packages\Replication-Packages\Topic4_Energy\"
+* Set output directory
+global output "...\Replication-Packages\Topic4_Energy\"
 
 *** 1. Energy intensity by macro-sector (slide 9) ***
 *Housekeeping
