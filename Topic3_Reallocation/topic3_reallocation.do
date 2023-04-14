@@ -23,8 +23,8 @@ This do file:
 
 clear all 
 
-* Output directory
-global output "G:\MHG\MULTIMSPROD\Replication Packages\Replication-Packages\Topic3_Reallocation"
+* Set output directory
+global output "...\Replication-Packages\Topic3_Reallocation"
 
 *Choose Compnet sample
 global sample "20e"
@@ -32,8 +32,8 @@ global sample "20e"
 *Weighted or unweighted version 
 global weight "weighted" 
 
-* Data directory 
-global data "S:/PROJEKTE/Compnet/9th Vintage/dataset_creation/final_output/${sample}_firms_${weight}/Descriptives/unconditional_mac_sector_${sample}_${weight}.dta"
+* Set data directory 
+global data ".../${sample}_firms_${weight}/Descriptives/unconditional_mac_sector_${sample}_${weight}.dta"
 
 *Load and prepare the CompNet file 
 use "$data" , clear 
